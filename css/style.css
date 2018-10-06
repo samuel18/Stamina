@@ -591,6 +591,89 @@ a:active{
 
 
 /***use of Ribbon***/
+.three-sqare-box{
+
+    margin-left: 13rem;
+    margin-top: -4rem; 
+}
+
+    .three-sqare-box h3{
+        font-family: 'Montserrat', sans-serif
+    }
+
+    .ribbon{ 
+        width: 10rem;
+        height: 2.6rem;
+        border: 2px solid #fc5711;
+        border-bottom-right-radius: 25px;
+        background-color: #fc5711;
+        color: #ffffff;
+        font-size: 1.5rem;
+    }
+
+    .padding-left{
+        padding-left: 2rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+        .sqare-box-with-ribbon p{
+            width: 17.5rem;
+            line-height: 1.7;
+        }  
+
+        .ribbon-button{
+            width: 8rem;
+            background-color: #f85b17;
+            color: #ffffff;
+            height: 2.7rem;
+            text-align: center;
+            padding-top: 0.8rem;
+            font-family: 'Open Sans', sans-serif;
+            margin-left: 5rem;
+            margin-top: 3rem;
+            border-radius: 20px;
+        }
+
+        
+
+       /* .ribbon span{
+            padding-left: 2rem;
+        }*/
+
+    .sqare-box-with-ribbon{
+        width: 18rem;
+        height: 27rem;
+        background-color: #ffffff;
+        margin-left: 2rem; 
+        margin-top: -8rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: inline-block;
+    }
+
+.footer{
+    width: 100%;
+    height: 38rem;
+    background-color: #000000;
+    margin-top: 10rem;
+
+
+}
+
+    .footer-column h4{
+        font-family: 'Archivo Black', sans-serif;
+        color: #ece9e9;
+        width: 22rem
+
+
+    }
+
+        .footer-column p{
+            font-family: 'Open Sans', sans-serif;
+            color: #d4d1d1;
+            width: 22rem
+
+
+        }   
 
 
 
