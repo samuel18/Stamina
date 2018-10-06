@@ -1,3 +1,13 @@
+::selection {
+    color: #ffffff;
+    background: #f85b17;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #ffffff;
+    background: #f85b17;
+}
+
 body, *, *:before, *:after{
     box-sizing: border-box;
 }
@@ -8,7 +18,7 @@ body{
 }
 
 .top-orange-color{
-    background-color: orangered;
+    background-color: #f85b17;
     width: 100%;
     height: 40px;
     margin: 0 0 0 0;
@@ -42,7 +52,7 @@ body{
     margin-top: 2rem;
 }
     #dot-color{
-        color: orangered;
+        color: #f85b17;
     }
 
 .page-header nav{
@@ -72,7 +82,7 @@ a{
 }
 
 a:active{
-    color: orangered;
+    color: #f85b17;
 }
 
 .black-rectangle{
@@ -92,7 +102,7 @@ a:active{
 
     }
     span >a{
-        color: orangered;
+        color: #f85b17;
 
     }
 
@@ -114,11 +124,11 @@ a:active{
 
     .button{
         width: 150px;
-        background-color: orangered;
+        background-color: #f85b17;
         padding: 1rem 1rem;
         color: white;
         border-radius: 24px;
-        border: orangered;
+        border: #f85b17;
         margin-top: 2rem;
         font-size: 0.9rem;
         
@@ -580,7 +590,7 @@ a:active{
     .become-a-memeber-button{
         width: 18rem;
         height: 4rem;
-        background-color: #fc5711;
+        background-color: #f85b17;
         color: #ffffff;
         text-align: center;
         font-size: 1.5rem;
@@ -593,7 +603,7 @@ a:active{
 /***use of Ribbon***/
 .three-sqare-box{
 
-    margin-left: 13rem;
+    margin-left: 20rem;
     margin-top: -4rem; 
 }
 
@@ -604,9 +614,9 @@ a:active{
     .ribbon{ 
         width: 10rem;
         height: 2.6rem;
-        border: 2px solid #fc5711;
+        border: 2px solid #f85b17;
         border-bottom-right-radius: 25px;
-        background-color: #fc5711;
+        background-color: #f85b17;
         color: #ffffff;
         font-size: 1.5rem;
     }
@@ -659,24 +669,90 @@ a:active{
 
 }
 
-    .footer-column h4{
+
+
+.all-footer-column{
+    padding-left: 10rem;
+    padding-top: 10rem;
+}
+
+     
+
+.footer-column{
+    padding-right: 7rem; 
+    padding-left: 2rem;
+    display: inline-block;
+}
+
+    .header{
         font-family: 'Archivo Black', sans-serif;
         color: #ece9e9;
-        width: 22rem
-
-
     }
 
-        .footer-column p{
-            font-family: 'Open Sans', sans-serif;
-            color: #d4d1d1;
-            width: 22rem
+    .footer-column p{
+        font-family: 'Open Sans', sans-serif;
+        color: #adaaaa;
+        width: 22rem;
+        line-height: 1.6;
+    } 
+
+    .footer-column ul{
+        font-family: 'Open Sans', sans-serif;
+        width: 5rem;
+        line-height: 1.6;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+
+    .footer-column li a{
+        display: block;
+        color: #adaaaa;
+    }
+
+    .footer-column li a:hover{
+        text-decoration: underline;
+    }
+
+    .become-a-memeber-button2{
+        width: 12rem;
+        height: 2.5rem;
+        background-color: #fc5711;
+        color: #ffffff;
+        text-align: center;
+        font-size: 1.1rem;
+        border-radius: 3rem;
+        padding-top: 0.5rem;
+        margin-top: 1rem;
+        font-family: 'Montserrat', sans-serif
+    }
 
 
-        }   
+    .footer-small-text{
+        font-size: 0.9rem;
+        color: #adaaaa;
+        padding-top: 5rem;
+        width: 22rem;
+        text-align: center;
+        margin-left: 40rem;
+        line-height: 1.6;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+        .footer-small-text a{
+            color: #f85b17;
+        }
 
 
-
+.space-between-symbols{
+    color: #f85b17;
+    font-size: 1.2rem;
+    letter-spacing: 0.7rem;
+    margin-left: 45rem;
+    padding-top: 2rem;
+}
 
 
 
